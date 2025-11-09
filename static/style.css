@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(135deg,#ece9e6,#ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+.title { color: #0077b6; font-weight: 700; }
+.card {
+  border:none;border-radius:12px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  transition:transform .2s ease;
+}
+.card:hover { transform:scale(1.03); }
+img.result-img {
+  border-radius:12px; object-fit:cover;
+  height:180px; width:100%;
+}
